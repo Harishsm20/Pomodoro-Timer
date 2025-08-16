@@ -11,8 +11,13 @@
       <section class="add-task-form flex-column flex-center box-radius">
         <input type="text" id="task-name" placeholder="Task Name" />
         <textarea id="task-desc" placeholder="Task Description"></textarea>
+        <input type="number" placeholder="Work time in minutes" min="0" max="180">
+        <input type="number" placeholder="Breaks" min="1" max="10">
         <button id="save-task" class="box-radius">Save Task</button>
+
+        <span class="note box-radius">Note: 4th break is always Long break</span>
       </section>
+
       <header class="nav-bar">
         <div>
           <span>Pomodoro</span>

@@ -119,6 +119,11 @@ body {
     justify-content: flex-start;
 }
 
+.display-tasks::-webkit-scrollbar {
+  display: none;
+}
+
+
 .task {
     background-color: rgba(47, 45, 45, 0.2);
     gap: 8px;
@@ -130,10 +135,12 @@ body {
 
 .add-task-form {
     display: none;
-    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top:20%;
+    background-color: rgb(193, 83, 79);
     padding: 10px;
     gap: 10px;
-    width: 90%;
+    width: 30%;
 }
 
 .add-task-form input,
@@ -154,4 +161,9 @@ body {
     border: none;
     padding: 6px;
     cursor: pointer;
+}
+
+.note{
+    background-color: rgba(177, 177, 177, 0.762);
+    padding: 5px;
 }
