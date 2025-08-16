@@ -1,0 +1,123 @@
+*{
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: default;
+}
+
+body{
+    background-color: rgba(193, 83, 79, 0.877);
+    height: 100%;
+    width: 100%;
+}
+
+.box-radius{
+  border-radius: 6px;
+}
+
+.linear-bg{
+    background-color: rgba(177, 177, 177, 0.285);
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-appliction{
+    padding: 10px;
+    width: 30%;
+    gap: 30px;
+    height: 70vh;
+    justify-content: space-between;
+    background-color: rgb(193, 83, 79);
+}
+
+.nav-bar{
+    padding: 10px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar span{
+    font-size: large;
+    font-weight: 600;
+}
+
+.add-task span{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.display-timer{
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.timer-type input[type="radio"]{
+    display: none;
+}
+
+.timer-type{
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+}
+
+.timer-type label {
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.timer-type input[type="radio"]:checked + label {
+  background-color: #fff;
+  color: rgb(193, 83, 79);
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+
+.time-display span{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.start-button{
+    width: 50%;
+}
+
+.start-button button{
+    background-color: #fff;
+    border: none;
+    color: rgb(193, 83, 79);
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.display-tasks{
+    gap: 20px;
+    width: 90%;
+    overflow-y: auto;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.task {
+    background-color: rgba(47, 45, 45, 0.2);
+    gap: 8px;
+    padding: 5px;
+    border-radius: 6px;
+    width: 90%;
+    text-align: center;
+}

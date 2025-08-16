@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer Application</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body class="flex-column flex-center">
+    <div class="timer-appliction flex-column flex-center box-radius">
+      <header class="nav-bar">
+        <div>
+          <span>Pomodoro</span>
+        </div>
+        <div class="add-task">
+          <span class="linear-bg box-radius">Add Task</span>
+        </div>
+      </header>
+
+      <section class="display-timer linear-bg flex-column flex-center box-radius">
+        <div class="timer-type">
+            <div>
+                <input type="radio" name="timer" id="pomodoro" checked/>
+                <label for="pomodoro">Pomodoro</label>
+            </div>
+            <div>
+                <input type="radio" name="timer" id="short-break" />
+                <label for="short-break">Short Break</label>
+            </div>
+            <div>
+                <input type="radio" name="timer" id="long-break" />
+                <label for="long-break">Long Break</label>
+            </div>
+        </div>
+
+        <div class="time-display">
+          <span>25:00</span>
+        </div>
+        <div class="start-button flex-column flex-center">
+          <button class="box-radius">START</button>
+        </div>
+      </section>
+
+      <section class="display-tasks flex-column flex-center">
+        <div class="task flex-column flex-center">
+            <span>Task NO: 1</span>
+            <span>Time to focus</span>
+        </div>
+        <div class="task flex-column flex-center">
+            <span>Task NO: 2</span>
+            <span>Time to focus</span>
+        </div>
+        <div class="task flex-column flex-center">
+            <span>Task NO: 3</span>
+            <span>Time to focus</span>
+        </div>
+        <div class="task flex-column flex-center">
+            <span>Task NO: 4</span>
+            <span>Time to focus</span>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
