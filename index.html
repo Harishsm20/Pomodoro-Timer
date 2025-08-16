@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body class="flex-column flex-center">
-    <div class="timer-appliction flex-column flex-center box-radius">
-      <section class="add-task-form flex-column flex-center box-radius">
+    <div class="timer-appliction flex-column flex-center box-radius" id="timer-appliction">
+      <section class="add-task-form flex-column flex-center box-radius" id="add-task-input">
         <input type="text" id="task-name" placeholder="Task Name" />
         <textarea id="task-desc" placeholder="Task Description"></textarea>
-        <input type="number" placeholder="Work time in minutes" min="0" max="180">
-        <input type="number" placeholder="Breaks" min="1" max="10">
+        <input type="number" placeholder="Work time in minutes" min="0" max="180" id="task-mins">
+        <input type="number" placeholder="Breaks" min="1" max="10" id="task-breaks">
         <button id="save-task" class="box-radius">Save Task</button>
 
         <span class="note box-radius">Note: 4th break is always Long break</span>
@@ -23,7 +23,7 @@
           <span>Pomodoro</span>
         </div>
         <div>
-          <span class=" add-task linear-bg box-radius">Add Task</span>
+          <span class=" add-task linear-bg box-radius" id="add-task">Add Task</span>
         </div>
       </header>
 
@@ -44,10 +44,10 @@
         </div>
 
         <div class="time-display">
-          <span>25:00</span>
+          <span id="display-timer">25:00</span>
         </div>
         <div class="start-button flex-column flex-center">
-          <button class="box-radius">START</button>
+          <button class="box-radius" id="start-timer">START</button>
         </div>
       </section>
 
@@ -71,4 +71,5 @@
       </section>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>

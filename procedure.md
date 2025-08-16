@@ -100,9 +100,3 @@ This project demonstrates the ability to:
 * Apply **front-end best practices** such as responsive design and user interaction handling.
 * Use **event-driven programming** (start, pause, reset).
 * Add **user experience enhancements** (themes, sounds, counters).
-
----
-
-## 🏆 Certificate Statement (for Internship / Report)
-
-> *This is to certify that the student has successfully completed the project “Pomodoro Timer” as part of their internship/training. The project implements a productivity tool using JavaScript, HTML, and CSS, demonstrating core programming concepts, user interface design, and time management techniques.*

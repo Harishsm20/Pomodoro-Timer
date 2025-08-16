@@ -70,6 +70,7 @@ body {
 
 .timer-type input[type="radio"] {
     display: none;
+    transition: all 0.5s;
 }
 
 .timer-type {
@@ -136,7 +137,7 @@ body {
 .add-task-form {
     display: none;
     position: fixed;
-    top:20%;
+    top:15%;
     background-color: rgb(193, 83, 79);
     padding: 10px;
     gap: 10px;
